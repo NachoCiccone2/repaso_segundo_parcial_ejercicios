@@ -1,0 +1,9 @@
+tornillos
+10
+100
+arandelas
+5
+50
+tarugos
+15
+70
