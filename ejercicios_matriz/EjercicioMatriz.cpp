@@ -1,15 +1,3 @@
-/*  Ejercicio 1: Suma de diagonal
-    Crea un programa que tenga una matriz cuadrada de 3x3, calcule la suma de la diagonal principal.
-*/  
-    
-/*  Ejercicio 2: Transponer una matriz
-    Haz un programa que tome una matriz de 2x3, cree su transpuesta (3x2) y muestre ambas matrices.
-*/
-
-/*  Ejercicio 3: Suma de filas y columnas
-    Escribe un programa que calcule la suma de cada fila y cada columna de una matriz de 3x4, y muestre los resultados.
-*/
-
 #include <iostream>
 
 using namespace std;
@@ -25,6 +13,10 @@ const int MATRIZ3X4[3][4]= { {1, 2, 3, 4},
                              {5, 6, 7, 8}, 
                              {9, 10, 11, 12} };
 
+/*  Ejercicio 1: Suma de diagonal
+    Crea un programa que tenga una matriz cuadrada de 3x3, calcule la suma de la diagonal principal.
+*/  
+
 void ejercicio1(){
     int suma = 0;
     for(int i=0; i<3; i++){
@@ -38,6 +30,10 @@ void ejercicio1(){
 
     return;
 }
+
+/*  Ejercicio 2: Transponer una matriz
+    Haz un programa que tome una matriz de 2x3, cree su transpuesta (3x2) y muestre ambas matrices.
+*/
 
 void ejercicio2(){
     int matrix3x2[3][2];
@@ -67,6 +63,10 @@ void ejercicio2(){
     }
     return;
 }
+
+/*  Ejercicio 3: Suma de filas y columnas
+    Escribe un programa que calcule la suma de cada fila y cada columna de una matriz de 3x4, y muestre los resultados.
+*/
 
 void ejercicio3(){
     int suma_fila[3] = {0,0,0}, suma_columma[4] = {0,0,0,0};
